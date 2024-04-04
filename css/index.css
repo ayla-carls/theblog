@@ -1,9 +1,13 @@
 nav{
-    text-align: center;
-    background: rgba(2, 56, 129, 0.90);
-    height: 100px;
-    flex-shrink: 0;
-   
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(2, 56, 129, 0.90);
+  height: 90px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  top: 0px;
+  width: 100%;
 }
 
 a{
@@ -16,6 +20,20 @@ a{
     justify-content: center;
     flex-wrap: wrap;
     padding-left: 50px;
+}
+
+a:hover{
+  color: #E49DB9;
+  
+}
+
+header{
+  background-color: none;
+  height: 500px; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 img{
@@ -40,22 +58,30 @@ p{
     font-family: "Carrois Gothic", sans-serif;
     font-size: 32px;
     margin-bottom: 327;
+    width: 1000px;
+    align-content: center;
+
 }
 
 footer{
-    
-    height: 153px;
-    flex-shrink: 0;
-    background: rgba(2, 56, 129, 0.90);
-    font-size: 24px;
-    font-family: "Carrois Gothic", sans-serif;
-    margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+  background-color: rgba(2, 56, 129, 0.90);
+  height: 135px;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: right;
+  margin-top: 160px;
+  bottom: 0px;
+  width: 100%;
 }
 
 #p2 {
     text-align: right;
     color: white;
     font-size: 24px; 
+    align-items: right;
+    margin-right: 20px;
 }
 
 .carrois-gothic-regular {

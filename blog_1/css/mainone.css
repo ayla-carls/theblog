@@ -1,8 +1,13 @@
 nav{
-    text-align: right;
-    background: #F28705;
-    height: 132px;
-    flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  background-color: #F28705;
+  height: 132px;
+  flex-wrap: wrap;
+  justify-content: right;
+  align-items: right;
+  top: 0px;
+  width: 100%;
 }
 
 a{
@@ -14,123 +19,85 @@ a{
     flex-shrink: 0;
     font-family: "Carrois Gothic", sans-serif;
     font-size: 32px;
-    flex-direction: row;
-    align-items: right;
-    justify-content: right;
-    flex-wrap: wrap;
-    padding-left: 50px;
+    margin-top: 61px;
+    margin-right: 20px;
+}
+
+a:hover{
+    color: #A60F46;
+  }
+
+.header{
+  display: grid;
+  background-color: #F2CB05CC;
+  height: 492px;
+  grid-column-gap: 46.5rem;
+  grid-template-columns: auto;
+  grid-template-rows: 164px 164px 164px;
+
+}
+
+.grid-item7{
+  display: flex;
+  align-items: flex-start;
+  font-family: "cardo", serif;
+  font-size: 96px;
+  font-style: italic;
+  color: #404040;
+  width: 672px;
+  padding-left: 153px;
+  padding-bottom: 50px;
+}
+
+.grid-item8{
+  display: flex;
+  color: #404040;
+  font-family: "Carrois Gothic", sans-serif;
+  font-size: 32px;
+  width: 938px;
+  padding-left: 153px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+    
+}
+
+.grid-item9{
+  display: flex;
+  color: #404040;
+  font-family: "Carrois Gothic", sans-serif;
+  font-size: 32px;
+  width: 196px;
+  padding-left: 153px;
+  padding-top: 50px;
+}
+
+.grid-item10{
+  width: 327px;
+  height: 492px;
+  position: absolute;
+  left: 2136px;
 }
 
 h1{
-    font-family: "cardo", serif;
-    font-size: 96px;
-    font-style: italic;
-    color: #404040;
-    width: 672px;
-    height: 135px;
-    flex-shrink: 0;
-    padding-left: 153px;
-}
-
-#headerp1{
-    color: #404040;
-    font-family: "Carrois Gothic", sans-serif;
-    font-size: 32px;
-    width: 1140px;
-    height: 126px;
-    flex-shrink: 0;
-    padding-left: 153px;
-}
-
-#headerp2{
-    color: #404040;
-    font-family: "Carrois Gothic", sans-serif;
-    font-size: 32px;
-    width: 196px;
-    height: 42px;
-    flex-shrink: 0;
-    padding-left: 153px;
-    margin-top: 110px;
+  font-family: "cardo", serif;
+  font-size: 96px;
+  font-style: italic;
+  color: #404040;
+  width: 672px;
+  height: 135px;
+  flex-shrink: 0;
+  padding-left: 153px;
+  padding-bottom: 30px;
+  font-weight: 400;
 }
 
 header{
-    background-color: #F2CB05CC;
+    color: #F2CB05CC;
     width: 100%;
     height: 490px;
     flex-shrink: 0;
 }
 
-#article1{
-    color: #404040;
-    font-family: "Carrois Gothic";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-    width: 548px;
-    height: 586px;
-    flex-shrink: 0;
-}
-
-#article2{
-    color: #404040;
-    font-family: "Carrois Gothic";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-}
-
-#article3{
-    color: #404040;
-    font-family: "Carrois Gothic";
-    font-size: 26px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-    text-align: left;
-}
-
-#one{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 24px;
-  }
-
-#two{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 24px;
-}  
-
-#three{
-    display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-column-gap: 24px;
-}
-
-.grid-article-one{
-    grid-column: 9/14;
-    margin-top: 200px;
-  }
-  
-  .grid-article-two{
-    grid-column: 1/5;
-  }
-  
-  .grid-article-three{
-    grid-column: 9/14;
-  }
-
-#headerimage{
-    width: 327px;
-    height: 490px;
-    flex-shrink: 0;
-    padding-left: 1113;
-    justify-content: center;
-}
 
 footer{
     width: 100%;
@@ -143,8 +110,83 @@ footer{
     text-align: right;
     color: white;
     font-size: 24px; 
+    margin-right: 20px;
 }
 
+
+.grid-container{
+  display: grid;
+  column-gap: 50px;
+  row-gap: 20px;
+  grid-template-columns: auto auto;
+  grid-template-rows: auto auto;
+  justify-content: space-evenly;
+  padding-top: 340px;
+  padding-bottom: 150px;
+}
+
+.grid-item1{ 
+  width: 612px;
+  height: 776px;
+  flex-shrink: 0;
+  
+}
+
+.grid-item2{
+ 
+  color: #404040;
+  font-family: "Carrois Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  width: 548px;
+  
+  height: fit-content;
+  flex-shrink: 0;
+}
+
+.grid-item3{
+  width: 612px;
+  height: 581px;
+  flex-shrink: 0;
+  
+}
+
+.grid-item4{
+  color: #404040;
+  font-family: "Carrois Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+  width: 546px;
+  height: fit-content;
+  flex-shrink: 0;
+}
+
+.grid-item5{
+ 
+  width: 612px;
+  height: 612px;
+  flex-shrink: 0;
+ 
+  
+}
+
+.grid-item6{
+  width: 546px;
+  height: fit-content;
+  color: #404040;
+  font-family: "Carrois Gothic";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: left;
+}
 .carrois-gothic-regular {
     font-family: "Carrois Gothic", sans-serif;
     font-weight: 400;
