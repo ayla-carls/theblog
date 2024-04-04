@@ -168,11 +168,10 @@ footer{
 }
 
 .grid-item5{
- 
-  width: 641.93px;
+  padding-top: 200px;
+  width: 612px;
   height: 612px;
   flex-shrink: 0;
- 
 }
 
 .grid-item6{
