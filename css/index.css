@@ -48,16 +48,16 @@ h1{
     color: #404040;
     font-family: "cardo", serif;
     font-style: italic;
-    font-size: 48px;
-    margin-top: 110px;
+    font-size: 82px;
+    margin-top: 220px;
 }
 
 p{
     text-align: center;
     color: #404040;
     font-family: "Carrois Gothic", sans-serif;
-    font-size: 32px;
-    margin-bottom: 327;
+    font-size: 36px;
+    margin-bottom: 627;
     width: 1000px;
     align-content: center;
 
@@ -71,7 +71,7 @@ footer{
   flex-wrap: wrap;
   justify-content: right;
   align-items: right;
-  margin-top: 160px;
+  margin-top: 270px;
   bottom: 0px;
   width: 100%;
 }
@@ -109,5 +109,5 @@ footer{
   }
   
   body{
-    background-color: white;
+    background-color:lightgoldenrodyellow;
   }
