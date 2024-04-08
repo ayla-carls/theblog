@@ -34,7 +34,7 @@ a:hover{
   grid-column-gap: 46.5rem;
   grid-template-columns: auto;
   grid-template-rows: 164px 164px 164px;
-  background-image: url("../img/orchidheader2.png");
+  background-image: url("../img/orchidheader4.png");
 
 }
 
@@ -42,7 +42,7 @@ a:hover{
   display: flex;
   align-items: flex-start;
   font-family: "cardo", serif;
-  font-size: 96px;
+  font-size: 104px;
   font-style: italic;
   color: #404040;
   width: 672px;
@@ -54,7 +54,7 @@ a:hover{
   display: flex;
   color: #404040;
   font-family: "Carrois Gothic", sans-serif;
-  font-size: 36px;
+  font-size: 38px;
   width: 938px;
   padding-left: 153px;
   grid-column-start: 1;
@@ -66,10 +66,10 @@ a:hover{
   display: flex;
   color: #404040;
   font-family: "Carrois Gothic", sans-serif;
-  font-size: 36px;
+  font-size: 38px;
   width: 196px;
   padding-left: 153px;
-  padding-top: 90px;
+  padding-top: 100px;
 }
 
 h1{
@@ -117,8 +117,8 @@ footer{
 
 .grid-container{
   display: grid;
-  column-gap: 50px;
-  row-gap: 20px;
+  column-gap: 10px;
+  row-gap: 5px;
   grid-template-columns: auto auto;
   grid-template-rows: auto auto;
   justify-content: space-evenly;
@@ -128,8 +128,10 @@ footer{
 }
 
 .grid-item1{ 
-  width: 612px;
-  height: 776px;
+  display: flex;
+  justify-items: center;
+  width: 812px;
+  height: 976px;
   flex-shrink: 0;
   
 }
@@ -138,7 +140,7 @@ footer{
  
   color: #404040;
   font-family: "Carrois Gothic";
-  font-size: 32px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -150,8 +152,10 @@ footer{
 }
 
 .grid-item3{
-  width: 612px;
-  height: 581px;
+  display: flex;
+  justify-items: center;
+  width: 812px;
+  height: 781px;
   flex-shrink: 0;
   
 }
@@ -159,7 +163,7 @@ footer{
 .grid-item4{
   color: #404040;
   font-family: "Carrois Gothic";
-  font-size: 32px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -170,9 +174,10 @@ footer{
 }
 
 .grid-item5{
- 
-  width: 612px;
-  height: 612px;
+  display: flex;
+  justify-items: center;
+  width: 812px;
+  height: 812px;
   flex-shrink: 0;
  
   
@@ -183,7 +188,7 @@ footer{
   height: fit-content;
   color: #404040;
   font-family: "Carrois Gothic";
-  font-size: 32px;
+  font-size: 38px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
